@@ -18,7 +18,7 @@ namespace ggt
             int x = 10; 
             int MainLine = k * x + b;
             int parallelLine = k * x + (b + 1);
-            int perpendicLine = -k * x + b;
+            int perpendicLine = - 1/k * x + b;
         }
     }
 }
